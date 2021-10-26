@@ -4,7 +4,7 @@ class Team extends React.Component {
     render() {
         const {shortName, crestUrl, venue, address, email, phone, founded} = this.props.team
         return (
-            <div className="col-4 my-4">
+            <div className="col-3 my-4 border border-1 p-2 m-1">
                 <img className="img-fluid" src={crestUrl}/>
                 <p>{shortName}</p>
                 <p>{venue}</p>
